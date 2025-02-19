@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.jhonbrena.animals.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.jhonbrena.MainTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="C:\Users\Jhon\animal-sounds\target\test-classes;C:\Users\Jhon\animal-sounds\target\classes;C:\Users\Jhon\.m2\repository\org\springframework\spring-context\5.3.24\spring-context-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-aop\5.3.24\spring-aop-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-beans\5.3.24\spring-beans-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-core\5.3.24\spring-core-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-jcl\5.3.24\spring-jcl-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-expression\5.3.24\spring-expression-5.3.24.jar;C:\Users\Jhon\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Jhon\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Jhon\animal-sounds\target\test-classes;C:\Users\Jhon\animal-sounds\target\classes;C:\Users\Jhon\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Jhon\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Users\Jhon\.jdks\openjdk-21.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jhon\AppData\Local\Temp\surefire12145886924094591426\surefirebooter-20250219111039414_3.jar C:\Users\Jhon\AppData\Local\Temp\surefire12145886924094591426 2025-02-19T11-10-38_353-jvmRun1 surefire-20250219111039414_1tmp surefire_0-20250219111039414_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jhon\AppData\Local\Temp\surefire4929975701825415233\surefirebooter-20250219170626090_3.jar C:\Users\Jhon\AppData\Local\Temp\surefire4929975701825415233 2025-02-19T17-06-25_945-jvmRun1 surefire-20250219170626090_1tmp surefire_0-20250219170626090_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Jhon\animal-sounds\target\test-classes;C:\Users\Jhon\animal-sounds\target\classes;C:\Users\Jhon\.m2\repository\org\springframework\spring-context\5.3.24\spring-context-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-aop\5.3.24\spring-aop-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-beans\5.3.24\spring-beans-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-core\5.3.24\spring-core-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-jcl\5.3.24\spring-jcl-5.3.24.jar;C:\Users\Jhon\.m2\repository\org\springframework\spring-expression\5.3.24\spring-expression-5.3.24.jar;C:\Users\Jhon\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Jhon\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Jhon\animal-sounds\target\test-classes;C:\Users\Jhon\animal-sounds\target\classes;C:\Users\Jhon\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Jhon\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Jhon"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jhon\AppData\Local\Temp\surefire12145886924094591426\surefirebooter-20250219111039414_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jhon\AppData\Local\Temp\surefire4929975701825415233\surefirebooter-20250219170626090_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-58"/>
@@ -59,5 +59,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="com.jhonbrena.animals.AppTest" time="0.005"/>
+  <testcase name="testApp" classname="com.jhonbrena.MainTest" time="0.002"/>
 </testsuite>
