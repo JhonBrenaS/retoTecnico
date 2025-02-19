@@ -1,38 +1,29 @@
 package com.jhonbrena;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import com.jhonbrena.Model.Dog;
+import com.jhonbrena.Model.Eagle;
+import com.jhonbrena.Model.Fish;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit test for simple App.
- */
-public class MainTest
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public MainTest(String testName )
-    {
-        super( testName );
+class MainTest {
+    @Test
+    void testDogCreation() {
+        Dog dog = new Dog("Firulais");
+        assertEquals("Firulais", dog.name);
+        assertEquals("Guau Guau", dog.makeSound());
+    }
+    @Test
+    void testEagleCreation() {
+        Eagle eagle = new Eagle("Águila");
+        assertEquals("Águila", eagle.name);
+        assertEquals("Kreeeh Kreeeh", eagle.makeSound());
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( MainTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @Test
+    void testFishCreation() {
+        Fish fish = new Fish("Nemo");
+        assertEquals("Nemo", fish.name);
+        assertEquals("Glu Glu", fish.makeSound());
     }
 }
